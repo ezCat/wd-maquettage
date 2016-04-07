@@ -4,7 +4,8 @@
 
 @section('content')
 
-    <div class="container">
+    <div class="page-wrapper">
+        <div class="page-inner">
 
         {{--Row 1--}}
 
@@ -56,5 +57,8 @@
             </div>
 
         </div>
+
+        </div>
+    </div>
 
 @endsection

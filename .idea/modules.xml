@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/wd-maquettage.iml" filepath="$PROJECT_DIR$/.idea/wd-maquettage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/wdinnove-library.iml" filepath="$PROJECT_DIR$/.idea/wdinnove-library.iml" />
     </modules>
   </component>
 </project>
