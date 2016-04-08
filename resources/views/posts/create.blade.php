@@ -3,11 +3,25 @@
 @section('content')
 
     <div class="page-wrapper">
-        <div class="page-inner">
 
-            <h1>Ajouter un exercice</h1>
+    <div class="row">
+        <h1><span class="important">AJOUTES</span> TON EXERCICE</h1>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <img src="{{ asset('public/img/mail.svg')}}" width="80%" height="100%">
+        </div>
+
+        <div class="col-md-8">
 
             {!! Form::open(['url' => route('posts.store')]) !!}
+            <br><br>
+
+            <span class="btn btn-circle-title" style="float: left;">1</span> 
+            <h3 style="margin-top: 7px;">Définissez l'exercice</h3>
+
             <br><br>
 
             {!! Form::label('', 'Titre') !!}
@@ -38,7 +52,7 @@
             {!! Form::close() !!}
 
         </div>
-
+    </div>
     </div>
 
 @endsection
